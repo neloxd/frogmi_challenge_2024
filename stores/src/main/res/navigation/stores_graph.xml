@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/stores_graph"
+    app:startDestination="@id/storesFragment">
+
+    <fragment
+        android:id="@+id/storesFragment"
+        android:name="com.jesusvilla.stores.presentation.holder.StoresFragment"
+        android:label="AclarationRegisterFragment"
+        tools:layout="@layout/fragment_stores"/>
+</navigation>

@@ -1,0 +1,7 @@
+ext {
+    packageApp = 'com.idmexico.tutag'
+    targetSdk = 34
+    miniumSdk = 26
+    verCode = 1
+    verName = "1.0.0"
+}

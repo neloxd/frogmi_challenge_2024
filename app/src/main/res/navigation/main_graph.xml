@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/stores_graph"
+    tools:ignore="UnusedNavigation">
+
+    <!--region Include -->
+    <include app:graph="@navigation/stores_graph"/>
+    <!--endregion-->
+
+    <!--region Global Action -->
+    <action
+        android:id="@+id/action_global_stores"
+        app:destination="@id/stores_graph" />
+    <!--endregion-->
+
+</navigation>
